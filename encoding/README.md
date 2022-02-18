@@ -21,8 +21,6 @@ The [**`gjson.go`**](./gjson.go) example displays data from the
 go run gjson.go
 ```
 
-![Screenshot](screenshot.png)
-
 ## `mailru/easyjson`
 
 The [`github.com/mailru/easyjson`](https://github.com/mailru/easyjson) package uses code generation to
