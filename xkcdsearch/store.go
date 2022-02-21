@@ -216,6 +216,9 @@ const searchAll = `
 	"size" : 25,
 	"sort" : { "published" : "desc", "_doc" : "asc" }`
 
+// number_of_fragments: The maximum number of fragments to return. If the number of fragments is set to 0, no fragments are returned.
+// Instead, the entire field contents are highlighted and returned.
+// fragment_size: The size of the highlighted fragment in characters. Defaults to 100.
 const searchMatch = `
 	"query" : {
 		"multi_match" : {
