@@ -11,8 +11,6 @@ tr.MaxIdleConnsPerHost = 100
 
 cfg := elasticsearch.Config{
 	Addresses: []string{"http://localhost:9200"},
-	Username: "elastic",
-	Password: "mysecret",
 	Transport: &tr,
 }
 
